@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
-
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title>HTML Academy: Седона</title>
+	</head>
+	<body>
+		<header class="main-header">
+			<a class="main-header-logo">
+				<img src="img/index-logo.svg" alt="Логотип городка Седона" width="150" height="70">
+			</a>
+			<nav class="main-navigation">
+				<ul class="main-navigation-list">
+					<li><a href="info.html">Информация</a></li>
+					<li><a href="Media.html">Фото и видео</a></li>
+					<li><a href="MapState.html">Карта штата</a></li>
+					<li><a href="Hotels.html">Гостиницы</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<h1 class="visually-hidden">Добро пожаловать в Седону</h1>
+			<section class="index-banner">
+				<img src="img/index-banner.png" alt="Вид на горы в Седоне" width="100%" heigt="505">
+				<p class="index-banner-welcom">Welcom</p>
+				<p class="index-banner-gorgeous">to the gorgeous</p>
+				<p class="index-banner-sedona">Sedona</p>
+				<p class="index-banner-Grand-Canyon">Because the Grand Canyon sacks!</p>
+			</section>
+			<section class="features">
+				<h2 class="visually-hidden">Приемущества</h2>
+				<h3>Седона - небольшой городок в аризоне, заслуживающий большего!</h3>
+				<p class="features-text">Рассмотрим пять причин, по которым Седона круче, чем Гранд Каньон!</p>
+				<div class="feature-first">
+					<h3>Настоящий городок</h3>
+					<span>-№1-</span>
+					<p>Седона не атракцион для туристов, там течет своя жизнь</p>
+					<img src="img/feature1.png" alt="Городской вид Седоны" width="800" height="255">
+					<ul class="feature-first-list">
+						<li>
+							<span class="icon-home"></span>
+							<h3>Жильё</h3>
+							<p>Рекомендуем пожить в снастоящем мотеле, всё как в кино!</p>
+						</li>
+						<li>
+							<span class="icon-food"></span>
+							<h3>Еда</h3>
+							<p>Всегда заказывайте фирменный бургер, вы не разочарутесь!</p>
+						</li>
+						<li>
+							<span class="icon-gift"></span>
+							<h3>Сувениры</h3>
+							<p>Не только китайского, но и местного производства!</p>
+						</li>
+					</ul>
+				</div>
+				<div class="feature-second">
+					<h3>Там есть мост дьявола</h3>
+					<span>-№2-</span>
+					<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+					<img src="img/feature2.png" alt="Городской вид Седоны" width="800" height="255">
+				</div>
+				<ul class="features-third-fifth">
+					<li>
+						<h3>Небольшая площадь</h3>
+						<span>-№3-</span>
+						<p>Все достопримечательности находятся очень близко</p>
+					</li>
+					<li>
+						<h3>Красивая дорога</h3>
+						<span>-№4-</span>
+						<p>Ехать в Седону из Лас-Вегаса НЕ СКУЧНО!</p>
+					</li>
+					<li>
+						<h3>Мало туристов</h3>
+						<span>-№5-</span>
+						<p>Большинство едет в Гранд Каньон и толпится там</p>
+					</li>
+				</ul>
+			</section>
+			<section class="search-hotels">
+				<h2>Заинтересовались?</h2>
+				<p>Укажите прдполагаемые даты поездки, и мы покажем вам лучшие преложения гостинец в Седоне</p>
+				<span class="button search-hotels">Поиск гостиницы в Седоне</span>
+				<div class="modal modal-search-hotels">
+					<!-- Здесь будет форма -->
+				</div>
+			</section>
+			<section class="map">
+				<!--Здесь будет интерактивная карта-->
+			</section>
+		</main>
+		<footer class="main-footer">
+			<div class="main-footer-tag">
+				<p>#VISITSEDONA</p>
+			</div>
+			<div class="footer-social">
+				<ul>
+					<li><a class="social-button" href="#">Твиттер</a></li>
+					<li><a class="social-button" href="#">Фэйсбук</a></li>
+					<li><a class="social-button" href="#">Youtube</a></li>
+				</ul>
+			</div>
+			<div class="footer-copyright">
+				<b>Website by</b> 
+				<a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+			</div>
+		</footer>
+	</body>
 </html>
