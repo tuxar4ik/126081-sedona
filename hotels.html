@@ -3,16 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <style>
-      table{
-        border-collapse: collapse;
-      }
-      td {
-        border: 1px solid black;
-        padding: 10px;
-      }
-    </style>
-  </head>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   <body>
     <header class="main-header">
       <a class="main-header-logo">
@@ -23,7 +16,7 @@
           <li><a href="info.html">Информация</a></li>
           <li><a href="Media.html">Фото и видео</a></li>
           <li><a href="MapState.html">Карта штата</a></li>
-          <li><a href="Hotels.html">Гостиницы</a></li>
+          <li  class="main-navigation-current"><a href="Hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -40,7 +33,7 @@
                 <label for="filter-pool">Бассейн</label>
               </li>
               <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="parking" id="filter-parking" >
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="parking" id="filter-parking">
                 <label for="filter-parking">Парковка</label>
               </li>
               <li class="filter-option">
@@ -105,7 +98,7 @@
             </li>
           </ul>
           <a  href="#" class="sort-up">По возрастанию</a>
-          <a href="#" class="sort-down">По убыванию</button>
+          <a href="#" class="sort-down">По убыванию</a>
         </header>
         <table class="hotels-list">
           <tr>
@@ -133,10 +126,10 @@
           </tr>
           <tr>
             <td>
-              <a class="button button-more" href="hotel-item.html">Подробнее</a>
+              <a class="button-more" href="hotel-item.html">Подробнее</a>
             </td>
             <td >
-              <a class="button button-book" href="#">Забронировать</a>
+              <a class="button-book" href="#">Забронировать</a>
             </td>
             <td>
               <p class="rating-value">Рейтинг:8,5</p>
@@ -167,10 +160,10 @@
           </tr>
           <tr>
             <td>
-              <a class="button button-more" href="hotel-item.html">Подробнее</a>
+              <a class="button-more" href="hotel-item.html">Подробнее</a>
             </td>
             <td >
-              <a class="button button-book" href="#">Забронировать</a>
+              <a class="button-book" href="#">Забронировать</a>
             </td>
             <td>
               <p class="rating-value">Рейтинг:8,9</p>
@@ -201,17 +194,16 @@
           </tr>
           <tr>
             <td>
-              <a class="button button-more" href="hotel-item.html">Подробнее</a>
+              <a class="button-more" href="hotel-item.html">Подробнее</a>
             </td>
             <td >
-              <a class="button button-book" href="#">Забронировать</a>
+              <a class="button-book" href="#">Забронировать</a>
             </td>
             <td>
               <p class="rating-value">Рейтинг:9,2</p>
             </td>
           </tr>
         </table>
-        <div onclick="document.window.href = 'www.yandex.ru'"></div>
         <!--<ul class="hotels-list">
           <li>
             <div class="hotel-item-image">
