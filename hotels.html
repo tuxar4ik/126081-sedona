@@ -7,7 +7,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   <body>
-    <header class="main-header">
+    <header class="main-header container">
       <a class="main-header-logo">
         <img src="img/index-logo.png" alt="Логотип городка Седона" width="150" height="70">
       </a>
@@ -72,13 +72,13 @@
               </tr>
             </table>
             <p class="filter-range">
-              <label  class="visually-hidden" for="filter-min-cost">Минимальная стоимость в сутки</label>
+              <label  class="visually-hidden" for="filter-min-cost">Минимальная стоимость в сутки<br></label>
               <input type="range" id="filter-min-cost" name="mincost" min="0" max="4000" value="0">
-              <label  class="visually-hidden" for="filter-max-cost">Максимальная стоимость в сутки</label>
+              <label  class="visually-hidden" for="filter-max-cost"><br>Максимальная стоимость в сутки<br></label>
               <input type="range" id="filter-max-cost" name="maxcost" min="0" max="4000" value="3000">
             </p>
+            <button class="button" type="submit">Показать</button>
           </fieldset>
-          <button class="button" type="submit">Показать</button>
         </form>
       </section>
       <section class="result-filters">
@@ -268,7 +268,7 @@
         </ul>-->
       </section>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer container">
       <div class="main-footer-tag">
         <p>#VISITSEDONA</p>
       </div>
