@@ -45,14 +45,10 @@ a {
 }
 
 .main-navigation-list a:hover,
-.main-navigation-list a:hover,
-.main-navigation-list a:focus,
 .main-navigation-list a:focus {
   color: #81b3d2;
 }
 
-
-.main-navigation-list a:active,
 .main-navigation-list a:active {
   color: #b2b2b2;
 }
@@ -67,7 +63,7 @@ a {
   background-color: #ffffff;
 }
 
-.container h1{
+.container h1 {
   text-align: center;
 }
 
@@ -76,8 +72,8 @@ a {
 }
 
 
-.features  h2,
-.features  h3,
+.features h2,
+.features h3,
 .features-text {
   text-align: center;
 }
@@ -268,7 +264,7 @@ button.button-search:active {
   color: #000000;
 }
 
-ul.sort-list {
+.sort-list {
   list-style: none;
 }
 
@@ -284,12 +280,12 @@ ul.sort-list {
   color: #81b3d2;
 }
 
-a.button-sort:hover,
-a.button-sort:focus {
+.button-sort:hover,
+.button-sort:focus {
   color: #81b3d2;
 }
 
-a.button-sort:active {
+.button-sort:active {
   color: #000000;
 }
 
@@ -309,19 +305,19 @@ a.button-sort:active {
   color: #81b3d2;
 }
 
-a.sort-up:hover,
-a.sort-down:hover,
-a.sort-up:focus,
-a.sort-down:focus {
+.sort-up:hover,
+.sort-down:hover,
+.sort-up:focus,
+.sort-down:focus {
   color: #000000;
 }
 
-a.sort-up:active,
-a.sort-down:active {
+.sort-up:active,
+.sort-down:active {
   color: #81b3d2;
 }
 
-a.hotel-title {
+.hotel-title {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -329,45 +325,45 @@ a.hotel-title {
   color: #000000;
 }
 
-a.hotel-title:hover,
-a.hotel-title:focus {
+.hotel-title:hover,
+.hotel-title:focus {
   color: #81b3d2;
 }
 
-a.hotel-title:active {
+.hotel-title:active {
   color:  rgba(0, 0, 0, 0.3);
 }
 
-a.button-more {
+.button-more {
   font-size: 14px;
   line-height: 21px;
 
   background-color: #81b3d2;
 }
 
-a.button-more:hover,
-a.button-more:focus {
+.button-more:hover,
+.button-more:focus {
   background-color: #669ec0;
 }
 
-a.button-more:active {
+.button-more:active {
   color: #87b6d1;
   background-color: #5496bd;
 }
 
-a.button-book {
+.button-book {
   font-size: 14px;
   line-height: 21px;
 
   background-color: #766357;
 }
 
-a.button-book:hover,
-a.button-book:focus {
+.button-book:hover,
+.button-book:focus {
   background-color: #604e43;
 }
 
-a.button-book:active {
+.button-book:active {
   color: #847870;
   background-color: #503e33;
 }
