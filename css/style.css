@@ -24,7 +24,7 @@ a {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 0;
+  padding: 0;
 
   color: #333333;
 
@@ -106,7 +106,6 @@ a {
 .features-list {
   display: flex;
   flex-wrap: wrap;
-  /*flex-direction: column;*/
 
   margin: 0;
   padding: 0;
@@ -457,8 +456,6 @@ button.button-search:active {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-  padding: ;
 }
 
 .main-footer-tag {
